@@ -2,7 +2,7 @@ import { Outlet, Link, useLocation } from "react-router-dom";
 
 export default function AppShell(){
   const { pathname } = useLocation();
-  const title = pathname === "/login" ? "Entrar" : "Doctor Checks";
+  const title = pathname === "/login" ? "Entrar" : "CheckMed";
   return (
     <div className="min-h-screen">
       <header className="sticky top-0 bg-surface border-b">
